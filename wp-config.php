@@ -29,7 +29,7 @@ define( 'DB_USER', 'admin');
 define( 'DB_PASSWORD', 'inova.2020' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '35.232.151.74' );
+define( 'DB_HOST', 'database-1.cjcr9xnwevuy.us-west-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
