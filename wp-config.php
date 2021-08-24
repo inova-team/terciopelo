@@ -26,10 +26,10 @@ define( 'DB_NAME', 'db_terciopelo' );
 define( 'DB_USER', 'admin');
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'inovaweb:us-central1:preprod-heroku' );
+define( 'DB_PASSWORD', 'inova.2020' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'inovaweb:us-central1:preprod-heroku' );
+define( 'DB_HOST', '35.232.151.74' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
