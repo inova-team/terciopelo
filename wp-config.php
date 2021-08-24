@@ -26,7 +26,7 @@ define( 'DB_NAME', 'db_terciopelo' );
 define( 'DB_USER', 'admin');
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'inova.2020' );
+define( 'DB_PASSWORD', 'Inova.2020' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'database-1.cjcr9xnwevuy.us-west-1.rds.amazonaws.com' );
