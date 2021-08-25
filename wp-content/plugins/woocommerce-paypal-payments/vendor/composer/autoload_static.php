@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit66bca0ec46d311fe385c37586d44ac5c
+class ComposerStaticInitfd327382102db5a22440815e53142caa
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -195,6 +195,8 @@ class ComposerStaticInit66bca0ec46d311fe385c37586d44ac5c
         'WooCommerce\\PayPalCommerce\\Session\\Cancellation\\CancelView' => __DIR__ . '/../..' . '/modules/ppcp-session/src/Cancellation/class-cancelview.php',
         'WooCommerce\\PayPalCommerce\\Session\\SessionHandler' => __DIR__ . '/../..' . '/modules/ppcp-session/src/class-sessionhandler.php',
         'WooCommerce\\PayPalCommerce\\Session\\SessionModule' => __DIR__ . '/../..' . '/modules/ppcp-session/src/class-sessionmodule.php',
+        'WooCommerce\\PayPalCommerce\\StatusReport\\Renderer' => __DIR__ . '/../..' . '/modules/ppcp-status-report/src/class-renderer.php',
+        'WooCommerce\\PayPalCommerce\\StatusReport\\StatusReportModule' => __DIR__ . '/../..' . '/modules/ppcp-status-report/src/class-statusreportmodule.php',
         'WooCommerce\\PayPalCommerce\\Subscription\\Helper\\SubscriptionHelper' => __DIR__ . '/../..' . '/modules/ppcp-subscription/src/Helper/class-subscriptionhelper.php',
         'WooCommerce\\PayPalCommerce\\Subscription\\RenewalHandler' => __DIR__ . '/../..' . '/modules/ppcp-subscription/src/class-renewalhandler.php',
         'WooCommerce\\PayPalCommerce\\Subscription\\Repository\\PaymentTokenRepository' => __DIR__ . '/../..' . '/modules/ppcp-subscription/src/Repository/class-paymenttokenrepository.php',
@@ -242,9 +244,9 @@ class ComposerStaticInit66bca0ec46d311fe385c37586d44ac5c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit66bca0ec46d311fe385c37586d44ac5c::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit66bca0ec46d311fe385c37586d44ac5c::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit66bca0ec46d311fe385c37586d44ac5c::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitfd327382102db5a22440815e53142caa::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitfd327382102db5a22440815e53142caa::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitfd327382102db5a22440815e53142caa::$classMap;
 
         }, null, ClassLoader::class);
     }

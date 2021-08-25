@@ -120,6 +120,8 @@ return array(
     'WooCommerce\\PayPalCommerce\\Session\\Cancellation\\CancelView' => $baseDir . '/modules/ppcp-session/src/Cancellation/class-cancelview.php',
     'WooCommerce\\PayPalCommerce\\Session\\SessionHandler' => $baseDir . '/modules/ppcp-session/src/class-sessionhandler.php',
     'WooCommerce\\PayPalCommerce\\Session\\SessionModule' => $baseDir . '/modules/ppcp-session/src/class-sessionmodule.php',
+    'WooCommerce\\PayPalCommerce\\StatusReport\\Renderer' => $baseDir . '/modules/ppcp-status-report/src/class-renderer.php',
+    'WooCommerce\\PayPalCommerce\\StatusReport\\StatusReportModule' => $baseDir . '/modules/ppcp-status-report/src/class-statusreportmodule.php',
     'WooCommerce\\PayPalCommerce\\Subscription\\Helper\\SubscriptionHelper' => $baseDir . '/modules/ppcp-subscription/src/Helper/class-subscriptionhelper.php',
     'WooCommerce\\PayPalCommerce\\Subscription\\RenewalHandler' => $baseDir . '/modules/ppcp-subscription/src/class-renewalhandler.php',
     'WooCommerce\\PayPalCommerce\\Subscription\\Repository\\PaymentTokenRepository' => $baseDir . '/modules/ppcp-subscription/src/Repository/class-paymenttokenrepository.php',

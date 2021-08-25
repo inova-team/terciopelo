@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce PayPal Payments - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-10 06:07:04+0000\n"
+"PO-Revision-Date: 2021-08-20 06:15:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,23 +11,96 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - WooCommerce PayPal Payments - Stable (latest release)\n"
 
-#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:75
+#: modules/ppcp-wc-gateway/src/Settings/class-settingslistener.php:168
+msgid "Please verify your API Credentials and try again to connect your PayPal business account. Visit the <a href=\"https://docs.woocommerce.com/document/woocommerce-paypal-payments/\" target=\"_blank\">plugin documentation</a> for more information about the setup."
+msgstr "Por favor, verifica tus credenciales de la API e intenta conectar de nuevo tu cuenta de PayPal Business. Visita la <a href=\"https://docs.woocommerce.com/document/woocommerce-paypal-payments/\" target=\"_blank\">documentación del plugin</a> para más información sobre la configuración."
+
+#: modules/ppcp-wc-gateway/src/Settings/class-settingslistener.php:167
+msgid "Authentication with PayPal failed: "
+msgstr "Ha fallado la identificación con PayPal: "
+
+#: modules/ppcp-wc-gateway/src/Gateway/class-processpaymenttrait.php:171
+#: modules/ppcp-wc-gateway/src/Gateway/class-processpaymenttrait.php:184
+msgid "Could not process order."
+msgstr "No se ha podido procesar el pedido."
+
+#: modules/ppcp-wc-gateway/src/Gateway/class-processpaymenttrait.php:146
+msgid "Instrument declined."
+msgstr "Instrumento rechazado."
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:90
+msgid "Whether vaulting is enabled on PayPal account or not."
+msgstr "Si está activado o no el depósito en la cuenta de PayPal."
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:89
+msgid "Vault enabled"
+msgstr "Depósito disponible"
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:83
+msgid "Whether Pay Later is available in country or not."
+msgstr "Si el mensaje «Pagar más tarde» está disponible o no en el país."
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:82
+msgid "Pay Later messaging available in country"
+msgstr "Mensaje «Pagar más tarde» disponible en el país"
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:79
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:86
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:121
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:129
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:143
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:145
+msgid "No"
+msgstr "No"
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:78
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:85
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:126
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:142
+msgid "Yes"
+msgstr "Sí"
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:76
+msgid "Whether PayPal card processing is available in country or not."
+msgstr "Si el procesamiento de tarjetas con PayPal está disponible o no en el país."
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:75
+msgid "PayPal card processing available in country"
+msgstr "Procesamiento de tarjetas con PayPal disponible en el país"
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:71
+msgid "Country / State value on Settings / General / Store Address."
+msgstr "Valor de «País / Provincia» en «Ajustes / General / Dirección de la tienda»."
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:70
+msgid "Shop country code"
+msgstr "Código del país de la tienda"
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:66
+msgid "Whether PayPal account is correctly configured or not."
+msgstr "Si la cuenta de PayPal está configurada correctamente o no."
+
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:65
+msgid "Onboarded"
+msgstr "Puesta en marcha"
+
+#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:79
 msgid "Learn More"
 msgstr "Aprender más"
 
-#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:68
+#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:72
 msgid "Deactivate PayPal Checkout"
 msgstr "Desactivar PayPal Checkout"
 
-#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:63
+#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:67
 msgid "Action Required: Deactivate PayPal Checkout"
 msgstr "Acción necesaria: Desactiva PayPal Checkout"
 
-#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:52
+#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:56
 msgid "As of 1 Sept 2021, PayPal Checkout will be officially retired from WooCommerce.com, and support for this product will end as of 1 March 2022. To fully switch over, all you need to do is deactivate and/or remove the PayPal Checkout plugin from your store."
 msgstr "A partir del 1 de septiembre de 2021, PayPal Checkout se retirará oficialmente de WooCommerce.com y el soporte para este producto finalizará el 1 de marzo de 2022. Para cambiar completamente, todo lo que tienes que hacer es desactivar y/o eliminar de tu tienda el plugin PayPal Checkout."
 
-#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:47
+#: modules/ppcp-compat/src/PPEC/class-deactivatenote.php:51
 msgid "As of 1 Sept 2021, PayPal Checkout will be officially retired from WooCommerce.com, and support for this product will end as of 1 March 2022. PayPal Payments can now handle all your subscription renewals even if they were first created using PayPal Checkout. To fully switch over, all you need to do is deactivate and/or remove the PayPal Checkout plugin from your store."
 msgstr "A partir del 1 de septiembre de 2021, PayPal Checkout se retirará oficialmente de WooCommerce.com y el soporte para este producto finalizará el 1 de marzo de 2022. PayPal Payments puede gestionar ahora todas tus renovaciones de suscripción, incluso si se crearon por primera vez usando PayPal Checkout. Para cambiar completamente, todo lo que tienes que hacer es desactivar y/o eliminar de tu tienda el plugin PayPal Checkout."
 
@@ -49,11 +122,6 @@ msgstr "Altura del botón"
 #: modules/ppcp-wc-gateway/services.php:1444
 msgid "Displays Pay Later messaging for available offers. Restrictions apply. <a>Click here to learn more</a>. Pay Later button will show for eligible buyers and PayPal determines eligibility."
 msgstr "Muestra el mensaje «Paga más tarde» para las ofertas disponibles. Se aplican restricciones. <a>Haz clic aquí para saber más</a>. El botón «Paga más tarde» se mostrará para los compradores que cumplan los requisitos y PayPal determinará la elegibilidad."
-
-#. translators: %s is the error description.
-#: modules/ppcp-api-client/src/Authentication/class-paypalbearer.php:125
-msgid "Could not create token. %s"
-msgstr "No se ha podido crear el token. %s"
 
 #: modules/ppcp-wc-gateway/services.php:1856
 msgid "You have PayPal vaulting enabled, that's why Pay Later Messaging options are unavailable now. You cannot use both features at the same time."
@@ -384,7 +452,7 @@ msgstr "Acepta tarjetas de crédito y débito, y métodos de pago locales con la
 msgid "PayPal Card Processing"
 msgstr "Procesamiento de tarjetas de PayPal"
 
-#: modules/ppcp-wc-gateway/src/Gateway/class-processpaymenttrait.php:151
+#: modules/ppcp-wc-gateway/src/Gateway/class-processpaymenttrait.php:156
 msgid "Please use a different payment method."
 msgstr "Por favor, usa un método de pago diferente."
 
@@ -1344,15 +1412,15 @@ msgstr "Realizar pedido"
 msgid "No country given for address."
 msgstr "No se ha facilitado ningún país en la dirección."
 
-#: modules/ppcp-api-client/src/Factory/class-itemfactory.php:133
+#: modules/ppcp-api-client/src/Factory/class-itemfactory.php:178
 msgid "No money values for item given"
 msgstr "No se han facilitado valores de moneda para el artículo"
 
-#: modules/ppcp-api-client/src/Factory/class-itemfactory.php:128
+#: modules/ppcp-api-client/src/Factory/class-itemfactory.php:173
 msgid "No quantity for item given"
 msgstr "No se ha facilitado cantidad para el artículo"
 
-#: modules/ppcp-api-client/src/Factory/class-itemfactory.php:123
+#: modules/ppcp-api-client/src/Factory/class-itemfactory.php:168
 msgid "No name for item given"
 msgstr "No se ha facilitado nombre para el artículo"
 
@@ -1420,20 +1488,20 @@ msgid "No id for webhook given."
 msgstr "No se ha facilitado ningún id para el webhook."
 
 #. translators: %s is the current breakdown key.
-#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:212
+#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:221
 msgid "No currency given for breakdown %s"
 msgstr "No se ha facilitado ninguna divisa para el desglose %s"
 
 #. translators: %s is the current breakdown key.
-#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:203
+#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:212
 msgid "No value given for breakdown %s"
 msgstr "No se ha facilitado ningún valor para el desglose %s"
 
-#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:160
+#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:169
 msgid "No currency given"
 msgstr "No se ha facilitado ninguna divisa"
 
-#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:156
+#: modules/ppcp-api-client/src/Factory/class-amountfactory.php:165
 msgid "No value given"
 msgstr "No se ha facilitado ningún valor"
 
@@ -1512,6 +1580,7 @@ msgstr "No se pudo obtener información del pago autorizado."
 msgid "No token found."
 msgstr "No se ha encontrado ningún token."
 
+#: modules/ppcp-api-client/src/Authentication/class-paypalbearer.php:137
 #: modules/ppcp-api-client/src/Endpoint/class-loginseller.php:161
 msgid "Could not create token."
 msgstr "No se pudo crear en token."
@@ -1582,5 +1651,6 @@ msgid "https://woocommerce.com/products/woocommerce-paypal-payments/"
 msgstr "https://woocommerce.com/products/woocommerce-paypal-payments/"
 
 #. Plugin Name of the plugin
+#: modules/ppcp-status-report/src/class-statusreportmodule.php:97
 msgid "WooCommerce PayPal Payments"
 msgstr "WooCommerce PayPal Payments"
