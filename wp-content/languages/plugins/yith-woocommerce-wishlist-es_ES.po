@@ -1,20 +1,15 @@
-# Translation of Plugins - YITH WooCommerce Wishlist - Development (trunk) in Spanish (Spain)
-# This file is distributed under the same license as the Plugins - YITH WooCommerce Wishlist - Development (trunk) package.
+# Translation of Plugins - YITH WooCommerce Wishlist - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Wishlist - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-05 10:13:29+0000\n"
+"PO-Revision-Date: 2021-08-26 08:54:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: es\n"
-"Project-Id-Version: Plugins - YITH WooCommerce Wishlist - Development (trunk)\n"
-
-#: includes/class-yith-wcwl-admin.php:250
-msgctxt "[HELP TAB] Video title"
-msgid "Check this video to learn how to <b>configure wishlist and customize options:</b>"
-msgstr "Consulta este vídeo para aprender cómo <b>configurar la lista de deseos y personalizar las opciones:</b>"
+"Project-Id-Version: Plugins - YITH WooCommerce Wishlist - Stable (latest release)\n"
 
 #: plugin-fw/templates/panel/help-tab.php:203
 msgctxt "Help tab submit ticket button"
@@ -125,6 +120,11 @@ msgstr "Sí, mover a la papelera"
 #: plugin-fw/includes/class-yit-assets.php:147
 msgid "Are you sure you want to trash the selected items?"
 msgstr "¿Seguro que quieres mover a la papelera los elementos seleccionados?"
+
+#: includes/class-yith-wcwl-admin.php:250
+msgctxt "[HELP TAB] Video title"
+msgid "Check this video to learn how to <b>configure wishlist and customize options:</b>"
+msgstr "Consulta este vídeo para aprender cómo <b>configurar la lista de deseos y personalizar las opciones:</b>"
 
 #: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:32
 msgid "Options Saved"
@@ -399,11 +399,6 @@ msgstr "Vaciar"
 msgid "another"
 msgstr "otro"
 
-#: plugin-fw/templates/fields/onoff.php:28
-msgctxt "YES/NO button: use MAX 4 characters!"
-msgid "YES"
-msgstr "SÍ"
-
 #: plugin-fw/templates/fields/dimensions.php:94
 msgctxt "Tooltip in the \"Dimensions\" field"
 msgid "Link values together"
@@ -429,21 +424,26 @@ msgctxt "Position in the \"Dimensions\" field"
 msgid "Top"
 msgstr "Arriba"
 
-#: includes/class-yith-wcwl-admin.php:126
-msgid "Wishlist Page"
-msgstr "Página de lista de deseos"
+#: plugin-fw/templates/fields/onoff.php:28
+msgctxt "YES/NO button: use MAX 4 characters!"
+msgid "YES"
+msgstr "SÍ"
 
-#: includes/class-yith-wcwl-ajax-handler.php:73
-msgid "Close"
-msgstr "Cerrar"
+#: plugin-options/lists-options.php:34
+msgid "Search list"
+msgstr "Buscar lista"
 
 #: plugin-options/wishlist_page-options.php:232
 msgid "My wishlist"
 msgstr "Mi lista de deseos"
 
-#: plugin-options/lists-options.php:34
-msgid "Search list"
-msgstr "Buscar lista"
+#: includes/class-yith-wcwl-ajax-handler.php:73
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/class-yith-wcwl-admin.php:126
+msgid "Wishlist Page"
+msgstr "Página de lista de deseos"
 
 #: includes/widgets/elementor/class-yith-wcwl-elementor-add-to-wishlist.php:185
 msgctxt "Elementor control label"
