@@ -26,10 +26,10 @@ define( 'DB_NAME', 'db_terciopelo' );
 define( 'DB_USER', 'admin');
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Inova.2020' );
+define( 'DB_PASSWORD', 'Inova.2020!!' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'database-1.cjcr9xnwevuy.us-west-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'inovadb.cpeoo34h8f6r.us-east-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
