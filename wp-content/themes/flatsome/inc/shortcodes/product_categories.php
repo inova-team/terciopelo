@@ -14,6 +14,7 @@ function ux_product_categories($atts, $content = null, $tag = '' ) {
       'orderby'    => 'menu_order',
       'order'      => 'ASC',
       'hide_empty' => 1,
+      'parent'     => 'false',
       'offset' => '',
       'show_count' => 'true',
       'class' => '',
@@ -76,6 +77,7 @@ function ux_product_categories($atts, $content = null, $tag = '' ) {
     if ( isset( $atts[ 'ids' ] ) ) {
       $ids = explode( ',', $atts[ 'ids' ] );
       $ids = array_map( 'trim', $ids );
+      $parent = '';
       $orderby = 'include';
     } else {
       $ids = array();
@@ -96,6 +98,7 @@ function ux_product_categories($atts, $content = null, $tag = '' ) {
 
     $product_categories = get_terms( 'product_cat', $args );
 
+	if ( ! empty( $parent ) ) $product_categories = wp_list_filter( $product_categories, array( 'parent' => $parent === 'false' ? 0 : $parent ) );
     if ( !empty($number) ) $product_categories = array_slice( $product_categories, 0, $number );
 
     $classes_box = array('box','box-category','has-hover');
@@ -198,7 +201,7 @@ function ux_product_categories($atts, $content = null, $tag = '' ) {
 
         if ( $thumbnail_id ) {
           $image = wp_get_attachment_image_src( $thumbnail_id, $thumbnail_size);
-          $image = $image[0];
+          $image = $image ? $image[0] : wc_placeholder_img_src();
         } else {
           $image = wc_placeholder_img_src();
         }

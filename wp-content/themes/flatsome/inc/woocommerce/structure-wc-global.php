@@ -290,7 +290,12 @@ function flatsome_new_flash( $html, $post, $product, $badge_style ) {
 		return $html;
 	}
 
-	$datetime_created  = $product->get_date_created();
+	$datetime_created = $product->get_date_created();
+
+	if ( ! $datetime_created ) {
+		return $html;
+	}
+
 	$timestamp_created = $datetime_created->getTimestamp();
 	$datetime_now      = new WC_DateTime();
 	$timestamp_now     = $datetime_now->getTimestamp();

@@ -1,0 +1,16 @@
+2021-08-30T13:56:40+00:00 CRITICAL Uncaught Error: Call to undefined function rt_libro_lrq_get_departamento_front() in C:\xampp\htdocs\wp-content\plugins\libro-de-reclamaciones-y-quejas\libro_shortcode.php:169
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\plugins\libro-de-reclamaciones-y-quejas\libro_shortcode.php(157): rt_libro_lrq_html_form_libro_reclamacion()
+#1 C:\xampp\htdocs\wp-includes\shortcodes.php(356): rt_libro_lrq_view_page('', '', 'libro_page')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(libro_...', 'do_shortcode_ta...', '[libro_page]\n\n\n...')
+#4 C:\xampp\htdocs\wp-includes\class-wp-hook.php(303): do_shortcode('[libro_page]\n\n\n...')
+#5 C:\xampp\htdocs\wp-includes\plugin.php(189): WP_Hook->apply_filters('[libro_page]\n\n\n...', Array)
+#6 C:\xampp\htdocs\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 C:\xampp\htdocs\wp-content\plugins\libro-de-reclamaciones-y-quejas\template\rt-libro-lrq-full-template.php(16): the_content()
+#8 C:\xampp\htdocs\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown en C:\xampp\htdocs\wp-content\plugins\libro-de-reclamaciones-y-quejas\libro_shortcode.php en la línea 169
+

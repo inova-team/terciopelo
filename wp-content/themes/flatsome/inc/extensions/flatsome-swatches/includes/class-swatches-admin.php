@@ -371,7 +371,7 @@ class Swatches_Admin {
 					$image     = $value ? wp_get_attachment_image_src( $value ) : '';
 					$image     = $image ? $image[0] : WC()->plugin_url() . '/assets/images/placeholder.png';
 					$classes[] = 'ux-swatch--image';
-					printf( '<div class="%s"><img class="ux-swatch__img" src="%s"></div>',
+					printf( '<div class="%s"><img class="ux-swatch__img" src="%s" width="30px" height="30px" alt=""></div>',
 						esc_attr( implode( ' ', $classes ) ),
 						esc_url( $image )
 					);

@@ -1,3 +1,10 @@
+--- 3.14.2 ---
+FIXED: Product categories element displayed sub categories.
+FIXED: PHP notice product categories variable may not support offset operations.
+FIXED: PHP error on a new product previewed in draft mode.
+FIXED: Swatches admin image preview sizing.
+FIXED: Various CSS improvements.
+
 --- 3.14.1 ---
 FIXED: PHP issue with http_headers_useragent pre WP 5.1 3th party filter usage.
 FIXED: Swatches incorrectly disabled in some cases.
