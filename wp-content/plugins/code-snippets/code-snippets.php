@@ -9,7 +9,7 @@
  * @author    Shea Bunge <shea@sheabunge.com>
  * @copyright 2012-2021 Shea Bunge
  * @license   MIT http://opensource.org/licenses/MIT
- * @version   2.14.1
+ * @version   2.14.2
  * @link      https://github.com/sheabunge/code-snippets
  */
 
@@ -19,7 +19,7 @@ Plugin URI:  https://github.com/sheabunge/code-snippets
 Description: An easy, clean and simple way to run code snippets on your site. No need to edit to your theme's functions.php file again!
 Author:       Code Snippets Pro
 Author URI:   https://codesnippets.pro
-Version:      2.14.1
+Version:      2.14.2
 License:      MIT
 License URI:  license.txt
 Text Domain:  code-snippets
@@ -30,6 +30,23 @@ Requires at least: 3.6
 
 /* Exit if accessed directly */
 if ( ! defined( 'ABSPATH' ) ) {
+	return;
+}
+
+/* If a version of code snippets has already been loaded, then deactivate this plugin. */
+if ( defined( 'CODE_SNIPPETS_FILE' ) ) {
+	require_once ABSPATH . 'wp-admin/includes/plugin.php';
+	deactivate_plugins( array( 'code-snippets/code-snippets.php' ), true );
+
+	if ( ! function_exists( 'code_snippets_deactivated_old_version_notice' ) ) {
+		function code_snippets_deactivated_old_version_notice() {
+			echo '<div class="error fade"><p>',
+			esc_html__( 'Another version of Code Snippets appears to be installed. Deactivating this version.', 'code-snippets' ),
+			'</p></div>';
+		}
+	}
+
+	add_action( 'admin_notices', 'code_snippets_deactivated_old_version_notice', 11 );
 	return;
 }
 
@@ -47,7 +64,6 @@ define( 'CODE_SNIPPETS_FILE', __FILE__ );
 
 /**
  * Enable autoloading of plugin classes
- *
  * @param $class_name
  */
 function code_snippets_autoload( $class_name ) {
@@ -70,7 +86,7 @@ function code_snippets_autoload( $class_name ) {
 
 	$class_path = dirname( __FILE__ ) . '/php/';
 
-	if ( 'Menu' === substr( $class_name, - 4, 4 ) ) {
+	if ( 'Menu' === substr( $class_name, -4, 4 ) ) {
 		$class_path .= 'admin-menus/';
 	}
 
@@ -87,14 +103,14 @@ try {
 /**
  * Retrieve the instance of the main plugin class
  *
- * @return Code_Snippets
  * @since 2.6.0
+ * @return Code_Snippets
  */
 function code_snippets() {
 	static $plugin;
 
 	if ( is_null( $plugin ) ) {
-		$plugin = new Code_Snippets( '2.14.1', __FILE__ );
+		$plugin = new Code_Snippets( '2.14.2', __FILE__ );
 	}
 
 	return $plugin;

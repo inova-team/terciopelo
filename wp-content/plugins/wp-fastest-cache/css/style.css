@@ -229,11 +229,11 @@ form.delete-line{
     float: left;
 }
 form.delete-line .left{
-    width: 25%;
+    width: 20%;
     float: left;
 }
 form.delete-line .right{
-    width: 75%;
+    width: 80%;
     float: left;
 }
 
@@ -244,7 +244,7 @@ form.delete-line .left .submit{
 }
 form.delete-line .left .submit input{
     height: 65px;
-    width: 165px;
+    width: 130px;
     white-space: pre-line !important;
 }
 td div.revert:before{

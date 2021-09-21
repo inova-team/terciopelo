@@ -727,7 +727,7 @@
 			}
 
 			if(isset($_POST["wpFastestCacheMobile"]) && $_POST["wpFastestCacheMobile"] == "on"){
-				$mobile = "RewriteCond %{HTTP_USER_AGENT} !^.*(".$this->getMobileUserAgents().").*$ [NC]"."\n";
+				$mobile = "RewriteCond %{HTTP_USER_AGENT} !^.*".$this->getMobileUserAgents().".*$ [NC]"."\n";
 
 				if(isset($_SERVER['HTTP_CLOUDFRONT_IS_MOBILE_VIEWER'])){
 					$mobile = $mobile."RewriteCond %{HTTP_CLOUDFRONT_IS_MOBILE_VIEWER} false [NC]"."\n";
@@ -1465,6 +1465,9 @@
 				   		<div class="exclude_section_clear" style=" margin-left: 3%; width: 95%; margin-bottom: 20px; margin-top: 0;"><div></div></div>
 
 				   		<h2 id="delete-cache-h2" style="padding-left:20px;padding-bottom:10px;"><?php _e("Delete Cache", "wp-fastest-cache"); ?></h2>
+
+				   		<?php //include_once(WPFC_MAIN_PATH."templates/cache_path.php"); ?>
+
 				    	<form method="post" name="wp_manager" class="delete-line" action="options.php">
 							<?php settings_fields( 'wpfc-group' ); ?>
 				    		<input type="hidden" value="deleteCache" name="wpFastestCachePage">

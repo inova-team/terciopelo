@@ -4,7 +4,7 @@ Donate link: http://profiles.wordpress.org/emrevona/
 Tags: cache, caching, performance, wp-cache, total cache, super cache, cdn
 Requires at least: 3.3
 Tested up to: 5.8
-Stable tag: 0.9.3
+Stable tag: 0.9.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,11 @@ The free version is enough to speed up your site but in the premium version ther
 18. Database Cleanup
 
 == Changelog ==
+
+= 0.9.4 =
+* to make compatible the Auto Cache feature with the Disable Gutenberg plugin
+* refactoring of rewrite rule of HTTP_USER_AGENT
+* to check that resources have been successfully optimized
 
 = 0.9.3 =
 * to prevent removing "/" for exclude rules

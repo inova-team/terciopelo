@@ -2,9 +2,9 @@
 Contributors: wpdevteam, Codetic, re_enter_rupok, Asif2BD, priyomukul, manzurahammed
 Tags: elementor, elements, addons, elementor addons, elementor widget, elementor form, woocommerce elementor, page builder, builder, visual editor, wordpress page builder
 Requires at least: 5.0
-Tested up to: 5.8
+Tested up to: 5.8.1
 Requires PHP: 5.6
-Stable tag: 4.8.4
+Stable tag: 4.9.1
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -43,7 +43,7 @@ We have extra-ordinary support team ready to help you. Ask your questions in the
 
 ### 40+ FREE WIDGETS AND COUNTING
 
-We have designed 43 of the most useful widgets to enhance your Elementor Page Building experience and allow you to climb the top of your design capabilities.
+We have designed 45 of the most useful widgets to enhance your Elementor Page Building experience and allow you to climb the top of your design capabilities.
 
 1. [Post Grid](https://essential-addons.com/elementor/post-grid/) - Showcase your blog posts in 4 unique styles 
 2. [Post Timeline](https://essential-addons.com/elementor/post-timeline/) - Create stunning timeline for your Posts, Pages or any Custom Post. 
@@ -89,6 +89,7 @@ We have designed 43 of the most useful widgets to enhance your Elementor Page Bu
 42. [Woo Product Compare](https://essential-addons.com/elementor/woo-product-compare/) - Create stunning WooCommerce Product Compare table instantly
 43. [Woo Product Carousel](https://essential-addons.com/elementor/woo-product-carousel/) - Design amazing WooCommerce Product Carousel with ease
 44. [Simple Menu](https://essential-addons.com/elementor/simple-menu/)- Design beautiful Navigation menu for your WordPress site quite easily
+45. [Woo Product Gallery](https://essential-addons.com/elementor/woo-product-gallery/)- Showcase your WooCommerce Products in a filterable gallery layout
 
 
 
@@ -182,7 +183,7 @@ If you like Essential Addons, then consider checking out our other WordPress Plu
 
 🗒️ **[BetterDocs](https://betterdocs.co/)** – Best Documentation & Knowledge Base Plugin for WordPress, which also reduce your manual support request.
 
-⏰ **[WP Scheduled Posts](https://wordpress.org/plugins/wp-scheduled-posts/)**  – Complete solution for WordPress Post Scheduling to manage schedules through an editorial calendar & Social Share.
+⏰ **[SchedulePress](https://wordpress.org/plugins/wp-scheduled-posts/)**  – Complete solution for WordPress Post Scheduling to manage schedules through an editorial calendar & Social Share.
 
 
 ⭐ **[ReviewX](https://wordpress.org/plugins/reviewx/)**  – Advanced multi criteria Rating & Reviews for WooCommerce that allows users to submit product review for multiple criteria.
@@ -224,6 +225,28 @@ Your existing elements/content will work with premium version. So you won't lose
 
 
 == Changelog ==
+
+= 4.9.1 - 14/09/2021 =
+
+- Improved: EA Woo Product Gallery | Added options to change category tab icon & button hover control
+- Improved: EA advanced Tabs | Added option to change the icon position
+- Improved: EA Login/Register Form | Added option to design Header Subtitle in Responsive Mode
+- Fixed: EA Advanced Tabs | Content not initially loading with anchor link
+- Fixed: WPML Translations not working for EA Advanced Tabs & EA Filterable Gallery
+- Few minor bug fix & improvements
+
+= 4.9.0 - 01/09/2021 =
+
+- Added: EA Woo Product Gallery widget
+- Added: EA Login Register | Option to Redirect logged in users to another page
+- Fixed: EA Filterable Gallery | video overlay image showing on lightbox
+- Fixed: EA Woo Checkout | Noutopiste section is missing in EA Woo Checkout
+- Fixed: EA Product Grid | Product images being misaligned in quick view
+- Fixed: EA Woo Product Carousel | Coverflow effect not being responsive
+- Fixed: EA Woo Product Carousel | not showing “Add to Cart” in Quick View for variable products
+- Fixed: EA Advanced Tabs | Full content not showing when the content is shown from Saved Template
+- Fixed: EA Gravity Forms | Styling not working when "enable legacy markup" option is turned off
+- Few minor bug fix & improvements
 
 = 4.8.4 - 19/08/2021 =
 

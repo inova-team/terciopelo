@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Mercado Pago payments for WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-11 19:14:28+0000\n"
+"PO-Revision-Date: 2021-09-20 15:35:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -324,7 +324,7 @@ msgstr "formulario de contacto."
 #. translators: %s link
 #: includes/payments/class-wc-woomercadopago-payment-abstract.php:1534
 msgid "Still having problems? Contact our support team through their %s"
-msgstr "¿Sigues teniendo problemas? Contacta con nuestro equipo de soporte a través de su %s"
+msgstr "¿Sigues con problemas? Comunícate con nuestro equipo de soporte a través de su %s"
 
 #: includes/payments/class-wc-woomercadopago-payment-abstract.php:1514
 msgid "Review documentation"
@@ -495,7 +495,7 @@ msgstr "Experiencia de pago"
 
 #: includes/payments/class-wc-woomercadopago-basic-gateway.php:264
 msgid "Accept all method of payment and take your charges to another level"
-msgstr "Acepta todos los métodos de pago y lleva tus cobros a otro nivel"
+msgstr "Acepta todos los medios de pago y lleva tus cobros a otro nivel"
 
 #: includes/payments/class-wc-woomercadopago-basic-gateway.php:285
 #: includes/payments/class-wc-woomercadopago-pix-gateway.php:312
@@ -849,7 +849,7 @@ msgstr "URL para IPN"
 
 #: includes/payments/class-wc-woomercadopago-payment-abstract.php:1306
 msgid "What is the maximum quota with which a customer can buy?"
-msgstr "¿Cuál es el número máximo de plazos en los que un cliente puede comprar?"
+msgstr "¿Cuál es el máximo de cuotas con las que un cliente puede comprar?"
 
 #: includes/payments/class-wc-woomercadopago-payment-abstract.php:1291
 msgid "Basic Configuration"
@@ -893,7 +893,7 @@ msgstr "Este nombre aparecerá en la factura de tus clientes."
 
 #: includes/payments/class-wc-woomercadopago-payment-abstract.php:1165
 msgid "Homologate account in Mercado Pago"
-msgstr "Homologar la cuenta en Mercado Pago"
+msgstr "Homologar cuenta en Mercado Pago"
 
 #: includes/payments/class-wc-woomercadopago-payment-abstract.php:1148
 msgid "Complete this process to secure your customers data and comply with the regulations<br> and legal provisions of each country."
@@ -1085,7 +1085,7 @@ msgstr "¿En cuántas cuotas quieres pagar?"
 
 #: templates/checkout/custom-checkout.php:138
 msgid "Last 3 numbers on the back"
-msgstr "Código de seguridad"
+msgstr "Últimos 3 números en el reverso"
 
 #: templates/checkout/custom-checkout.php:128
 msgid "Expiration date"
@@ -1116,7 +1116,7 @@ msgstr "¿Con qué tarjetas puedo pagar?"
 #: includes/payments/hooks/class-wc-woomercadopago-hook-pix.php:68
 #: includes/payments/hooks/class-wc-woomercadopago-hook-ticket.php:76
 msgid "To choose"
-msgstr "Para elegir"
+msgstr "Elegir"
 
 #: templates/checkout/ticket-checkout.php:330
 msgid "Select the issuer with whom you want to process the payment"
@@ -1518,7 +1518,7 @@ msgstr "Mercado Pago - Pago personalizado"
 
 #: includes/notification/class-wc-woomercadopago-notification-abstract.php:321
 msgid "Payment was returned to the customer."
-msgstr "El pago ha sido devuelto al cliente."
+msgstr "El pago fue devuelto al cliente."
 
 #: includes/notification/class-wc-woomercadopago-notification-abstract.php:306
 msgid "Payment was declined. The customer can try again."
@@ -1595,7 +1595,7 @@ msgstr "Máximo de cuotas"
 
 #: includes/payments/class-wc-woomercadopago-basic-gateway.php:362
 msgid "Success URL"
-msgstr "URL de compra correcta"
+msgstr "URL de éxito"
 
 #: includes/payments/class-wc-woomercadopago-basic-gateway.php:357
 #: includes/payments/class-wc-woomercadopago-basic-gateway.php:377

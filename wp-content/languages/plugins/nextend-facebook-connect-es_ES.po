@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Nextend Social Login and Register - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-16 07:28:39+0000\n"
+"PO-Revision-Date: 2021-09-09 08:34:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,18 +11,45 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - Nextend Social Login and Register - Stable (latest release)\n"
 
-#: admin/templates/settings/buddypress.php:50
-#: admin/templates/settings/buddypress.php:105
-#: admin/templates/settings/comment.php:39
-#: admin/templates/settings/login-form-pro.php:35
-#: admin/templates/settings/login-form-pro.php:97
-#: admin/templates/settings/memberpress.php:39
-#: admin/templates/settings/memberpress.php:111
-#: admin/templates/settings/ultimate-member.php:39
-#: admin/templates/settings/ultimate-member.php:111
-#: admin/templates/settings/userpro.php:51
-#: admin/templates/settings/userpro.php:108
-#: admin/templates/settings/woocommerce.php:24
+#: providers/twitter/admin/fix-redirect-uri.php:14
+#: providers/twitter/admin/getting-started.php:31
+msgid "Add the following URL to the \"<b>%1$s</b>\" field:"
+msgstr "Añade la siguiente URL al campo «<b>%1$s</b>»:"
+
+#: providers/facebook/admin/getting-started.php:64
+msgid "By default, your application only has Standard access for the permissions, which is not enough for %1$s.<br>On the left side, click on <strong>%2$s</strong> then click <strong>%3$s</strong>. In the table you will find the \"<strong>%4$s</strong>\" and \"<strong>%5$s</strong>\" permissions and you should click on the <strong>%6$s</strong> buttons next to them. "
+msgstr "Por defecto, tu aplicación sólo tiene acceso estándar para los permisos, lo cual no es suficiente para %1$s.<br>En la parte izquierda, haz clic en <strong>%2$s</strong> y, después, haz clic en <strong>%3$s</strong>. En la tabla encontrarás los permisos «<strong>%4$s</strong>» y «<strong>%5$s</strong>» y tendrás que hacer clic en los botones <strong>%6$s</strong> junto a ellos. "
+
+#: providers/facebook/admin/getting-started.php:63
+msgid "Your application is currently private, which means that only you can log in with it. In the top bar switch the \"<b>App Mode</b>\" from \"<b>Development</b>\" to \"<b>Live</b>\"."
+msgstr "En este momento, tu aplicación es privada, lo que significa que solo tú puedes acceder con ella. En la barra superior, cambia «<b>Modo de la aplicación</b>» de «<b>Desarrollo</b>» a «<b>En vivo</b>»."
+
+#: providers/facebook/admin/getting-started.php:33
+msgid "Find \"<b>%1$s</b>\" and click \"<b>Set Up</b>\"."
+msgstr "Encuentra «<b>%1$s</b>» y haz clic en «<b>Configurar</b>»."
+
+#: includes/user.php:681
+msgid "We found a user with your %1$s email address. Unfortunately it belongs to a different %1$s account, so we are unable to log you in. Please use the linked %1$s account or log in with your password!"
+msgstr "Hemos encontrado un usuario con tu dirección de correo electrónico de %1$s. Lamentablemente, pertenece a una cuenta diferente de %1$s, por lo que no podemos conectarte. Por favor, ¡usa la cuenta de %1$s vinculada o accede con tu contraseña!"
+
+#: admin/admin.php:780
+msgid "<strong><u>Warning</u></strong>: You are using <b>%1$s</b>! Depending on your %1$s configuration the Redirect URI can be different. For more information please check our %2$s %1$s compatibility tutorial%3$s!"
+msgstr "<strong><u>Advertencia</u></strong>: ¡Estás usando <b>%1$s</b>! Dependiendo de tu configuración de %1$s, la URI de redirección puede ser diferente. ¡Para más información consulta nuestro %2$stutorial de compatibilidad con %1$s%3$s!"
+
+#: admin/templates/settings/buddypress.php:56
+#: admin/templates/settings/buddypress.php:149
+#: admin/templates/settings/comment.php:45
+#: admin/templates/settings/easy-digital-downloads.php:50
+#: admin/templates/settings/easy-digital-downloads.php:143
+#: admin/templates/settings/login-form-pro.php:41
+#: admin/templates/settings/login-form-pro.php:103
+#: admin/templates/settings/memberpress.php:45
+#: admin/templates/settings/memberpress.php:117
+#: admin/templates/settings/ultimate-member.php:45
+#: admin/templates/settings/ultimate-member.php:117
+#: admin/templates/settings/userpro.php:57
+#: admin/templates/settings/userpro.php:114
+#: admin/templates/settings/woocommerce.php:30
 msgid "Fullwidth"
 msgstr "Ancho completo"
 
@@ -34,60 +61,53 @@ msgstr "No se ha podido crear el archivo temporal."
 msgid "Invalid URL Provided."
 msgstr "La URL proporcionada no es válida."
 
-#: includes/userData.php:202
+#: includes/userData.php:204
 msgctxt "Register form submit button label"
 msgid "Register"
 msgstr "Registro"
 
-#: providers/google/admin/getting-started.php:36
-msgid "Under the \"<b>%1$s</b>\" section click \"<b>%2$s</b>\" and add the following URL: <b>%3$s</b>"
-msgstr "En la sección «<b>%1$s</b>», haz clic en «<b>%2$s</b>» y añade la siguiente URL: <b>%3$s</b>"
+#: providers/google/admin/fix-redirect-uri.php:14
+#: providers/google/admin/getting-started.php:40
+msgid "Under the \"<b>%1$s</b>\" section click \"<b>%2$s</b>\" and add the following URL:"
+msgstr "En la sección «<b>%1$s</b>», haz clic en «<b>%2$s</b>» y añade la siguiente URL:"
 
-#: providers/google/admin/getting-started.php:34
+#: providers/google/admin/getting-started.php:36
 msgid "Select the \"<b>%1$s</b>\" under Application type."
 msgstr "Selecciona la «<b>%1$s</b>» en el tipo de aplicación."
 
-#: providers/google/admin/getting-started.php:33
+#: providers/google/admin/getting-started.php:35
 msgid "Choose the \"<b>%1$s</b>\" option."
 msgstr "Elige la opción «<b>%1$s</b>»."
 
-#: providers/google/admin/getting-started.php:31
+#: providers/google/admin/getting-started.php:33
 msgid "Press \"<b>%1$s</b>\" then press it again on the \"%2$s\", \"%3$s\" pages, too!"
 msgstr "Pulsa «<b>%1$s</b>» y, después, ¡vuelve a pulsarlo también en las páginas «%2$s» y «%3$s»!"
 
-#: providers/google/admin/getting-started.php:30
+#: providers/google/admin/getting-started.php:32
 msgid "At the \"<b>%1$s</b>\" section, enter an email address that %2$s can use to notify you about any changes to your project."
 msgstr "En la sección «<b>%1$s</b>», introduce una dirección de correo electrónico que %2$s pueda usar para avisarte de cualquier cambio en tu proyecto."
 
-#: providers/google/admin/getting-started.php:29
+#: providers/google/admin/getting-started.php:31
 msgid "Under the \"<b>%1$s</b>\" section press the \"<b>%2$s</b>\" button and  enter your domain name, probably: <b>%3$s</b> without subdomains!"
 msgstr "En la sección «<b>%1$s</b>», pulsa el botón «<b>%2$s</b>» e introduce el nombre de tu dominio, probablemente: <b>%3$s</b>, ¡sin subdominios!"
 
-#: providers/google/admin/getting-started.php:28
+#: providers/google/admin/getting-started.php:30
 msgid "For the \"<b>%1$s</b>\" field, select an email address that users can use to contact you with questions about their consent."
 msgstr "Para el campo «<b>%1$s</b>», selecciona una dirección de correo electrónico que los usuarios puedan usar para contactar contigo con pregunta acerca de su consentimiento."
 
-#: providers/google/admin/getting-started.php:22
+#: providers/google/admin/getting-started.php:24
 msgid "Choose a <b>%1$s</b> according to your needs and press \"<b>%2$s</b>\". If you want to enable the social login with %3$s for any users with a %3$s account, then pick the \"%4$s\" option!"
 msgstr "Elige un <b>%1$s</b> según tus necesidades y pulsa «<b>%2$s</b>». Si quieres activar el acceso social con %3$s para cualquier usuario con una cuanta de %3$s, entonces, ¡selecciona la opción «%4$s»!"
 
-#: providers/google/admin/getting-started.php:21
+#: providers/google/admin/getting-started.php:23
 msgid "Click the “<b>%1$s</b>” button on the left hand side."
 msgstr "Haz clic en el botón «<b>%1$s</b>» del lado izquierdo."
 
-#: providers/google/admin/getting-started.php:20
+#: providers/google/admin/getting-started.php:22
 msgid "Once you have a project, you'll end up in the dashboard. ( If earlier you have already had a Project, then make sure you select the created project in the top bar! )"
 msgstr "Una vez que tengas un proyecto, terminarás en el escritorio. (Si antes ya tenías un proyecto, ¡asegúrate de seleccionar en la barra superior el proyecto creado!)"
 
-#: providers/facebook/admin/getting-started.php:63
-msgid ""
-"<strong><u>New Data Access Levels:</u></strong> Facebook started replacing the Development Mode / Live Mode switch in some Apps with %1$s ( earlier Development Mode ) and %2$s ( earlier Live mode ), which can be modified on the <strong>%3$s</strong> page. You can reach this page from the left hand menu of your App, under <strong>%4$s</strong>.\n"
-"If you want people outside of your business to be able to use their Faceook account to register and login over your App, then make sure you requested <strong>%2$s</strong> for the <strong>%5$s</strong> and <strong>%6$s</strong> permissions. "
-msgstr ""
-"<strong><u>Nuevos niveles de acceso a los datos:</u></strong> Facebook ha empezado a reemplazar el cambio de modo de desarrollo/modo en vivo en algunas aplicaciones con %1$s (anterior modo de desarrollo) y %2$s (anterior modo en vivo), que se puede modificar en la página <strong>%3$s</strong>. Puedes llegar a esta página desde el menú de la izquierda de tu aplicación, en <strong>%4$s</strong>.\n"
-"Si quieres que personas ajenas a tu negocio puedan usar su cuenta de Facebook para registrarse y acceder a través de tu aplicación, entonces asegúrate de pedir <strong>%2$s</strong> para los permisos <strong>%5$s</strong> y <strong>%6$s</strong>. "
-
-#: providers/facebook/admin/getting-started.php:61
+#: providers/facebook/admin/getting-started.php:74
 msgid ""
 "<strong><u>Facebook Data Use Checkup:</u></strong> To protecting people's privacy, Facebook might requests you to fill some forms, so they can ensure that your API access and data use comply with the Facebook policies.\n"
 "If Facebook displays the \"%1$s\" modal for your App, then in our %2$sdocumentation%3$s you can find more information about the permissions that we need."
@@ -95,63 +115,59 @@ msgstr ""
 "<strong><u>Comprobación de uso de datos de Facebook:</u></strong> Para proteger la privacidad de la gente, Facebook puede pedirte que rellenes algunos formularios para asegurarse de que tu acceso a la API y el uso de los datos cumplen con las políticas de Facebook.\n"
 "Si Facebook muestra la información emergente «%1$s» para tu aplicación, entonces, en nuestra %2$sdocumentación%3$s, puedes encontrar más información sobre los permisos que necesitamos."
 
-#: providers/facebook/admin/getting-started.php:60
+#: providers/facebook/admin/getting-started.php:73
 msgid "Maintaining the Facebook App:"
 msgstr "Mantenimiento de la aplicación de Facebook:"
 
-#: providers/facebook/admin/getting-started.php:26
+#: providers/facebook/admin/getting-started.php:28
 msgid "Click on the \"<b>Create App</b>\" button and in the Popup choose the \"<b>Consumer</b>\" App type!"
 msgstr "Haz clic en el botón «<b>Crear una aplicación</b>» y, en la ventana emergente, ¡elige el tipo de aplicación «<b>Consumidor</b>»!"
 
-#: providers/twitter/admin/getting-started.php:31
+#: providers/twitter/admin/getting-started.php:42
 msgid "Go back to %1$s and <b>Verify</b> your %2$s provider."
 msgstr "Vuelve a %1$s y <b>verifica</b> tu proveedor de %2$s."
 
-#: providers/twitter/admin/getting-started.php:30
+#: providers/twitter/admin/getting-started.php:41
 msgid "Click on \"<b>%s</b>\"."
 msgstr "Haz clic en «<b>%s</b>»."
 
-#: providers/twitter/admin/getting-started.php:29
+#: providers/twitter/admin/getting-started.php:40
 msgid "If you want to get the email address as well, then don’t forget to enable the \"<b>%1$s</b>\" option. In this case you also need to fill the \"<b>%2$s</b>\" and the \"<b>%3$s</b>\" fields with the corresponding URLs!"
 msgstr "Si quieres obtener también la dirección de correo electrónico, no olvides activar la opción «<b>%1$s</b>». En este caso, ¡también tendrás que rellenar los campos «<b>%2$s</b>» y «<b>%3$s</b>» con las URL correspondientes!"
 
-#: providers/twitter/admin/getting-started.php:28
+#: providers/twitter/admin/getting-started.php:39
 msgid "Enter your site's URL to the \"<b>%1$s</b>\" field: <b>%2$s</b>"
 msgstr "Introduce la URL de tu sitio en el campo «<b>%1$s</b>»: <b>%2$s</b>"
 
-#: providers/twitter/admin/getting-started.php:27
-msgid "Add the following URL to the \"<b>%1$s</b>\" field: <b>%2$s</b>"
-msgstr "Añade la siguiente URL al campo «<b>%1$s</b>»: <b>%2$s</b>"
-
-#: providers/twitter/admin/getting-started.php:26
+#: providers/twitter/admin/getting-started.php:28
 msgid "Switch on the \"<b>%s</b>\" option."
 msgstr "Activa la opción «<b>%s</b>»."
 
-#: providers/twitter/admin/getting-started.php:25
+#: providers/twitter/admin/getting-started.php:27
 msgid "Scroll down and click on the \"<b>%1$s</b>\" button at \"<b>%2$s</b>\"."
 msgstr "Haz scroll hacia abajo y haz clic en el botón «<b>%1$s</b>» en «<b>%2$s</b>»."
 
-#: providers/twitter/admin/getting-started.php:24
+#: providers/twitter/admin/getting-started.php:26
 msgid "Go back to your Twitter project and on the left side, under the \"<b>%s</b>\" section click on the name of your App."
 msgstr "Vuelve a tu proyecto de Twitter y en la parte izquierda, en la sección «<b>%s</b>», haz clic en el nombre de tu aplicación."
 
-#: providers/twitter/admin/getting-started.php:23
+#: providers/twitter/admin/getting-started.php:25
 msgid "You’ll find your API key and secret on this page. Copy and paste the \"<b>%1$s</b>\" and the \"<b>%2$s</b>\" to the corresponding fields at %3$s and press \"<b>Save Changes</b>\"."
 msgstr "En esta página encontrarás tu clave de la API y la clave secreta. Copia y pega la «<b>%1$s</b>» y la «<b>%2$s</b>» en los campos correspondientes en %3$s y pulsa «<b>Guardar los cambios</b>»."
 
-#: providers/twitter/admin/getting-started.php:22
+#: providers/twitter/admin/getting-started.php:24
 msgid "Click \"<b>%s</b>\"!"
 msgstr "¡Haz clic en «<b>%s</b>»!"
 
-#: providers/twitter/admin/getting-started.php:21
+#: providers/twitter/admin/getting-started.php:23
 msgid "Name your project, and go through the basic setup. You’ll need to select your use case, give a description and enter a name for the App as well."
 msgstr "Pon un nombre a tu proyecto y haz la configuración básica. Tendrás que seleccionar tu ejemplo de uso, dar una descripción e introducir también un nombre para la aplicación."
 
-#: providers/twitter/admin/getting-started.php:20
+#: providers/twitter/admin/getting-started.php:22
 msgid "Click on \"<b>%s</b>\"!"
 msgstr "¡Haz clic en «<b>%s</b>»!"
 
-#: providers/twitter/admin/fix-redirect-uri.php:13
+#: providers/twitter/admin/fix-redirect-uri.php:22
 msgid "Make sure the \"<b>%1$s</b>\" field contains the following URL: <b>%2$s</b>"
 msgstr "Asegúrate de que el campo «<b>%1$s</b>» contiene la siguiente URL: <b>%2$s</b>"
 
@@ -183,7 +199,7 @@ msgstr "Aviso por defecto de WordPress"
 msgid "Email template for registration"
 msgstr "Plantilla del correo electrónico para el registro"
 
-#: providers/facebook/admin/getting-started.php:56
+#: providers/facebook/admin/getting-started.php:69
 msgid ""
 "<b>WARNING:</b> <u>Don't replace your Facebook App with another!</u> Since WordPress users with linked Facebook accounts can only login using the %1$s App, that was originally used at the time, when the WordPress account was linked with a %1$s Account.<br>\n"
 "If you would like to know the reason of this, or you really need to replace the Facebook App, then please check our %2$sdocumentation%3$s."
@@ -191,23 +207,23 @@ msgstr ""
 "<b>ADVERTENCIA:</b> <u>¡No reemplaces tu aplicación de Facebook con otra!</u> Ya que los usuarios de WordPress con cuentas de Facebook enlazadas solo pueden acceder usando la aplicación de %1$s, que se usó originalmente en ese momento, cuando la cuenta de WordPress se enlazó con una cuenta de %1$s.<br>\n"
 "Si te gustaría saber la razón de esto, o si realmente necesitas reemplazar la aplicación de Facebook, por favor, consulta nuestra %2$sdocumentación%3$s."
 
-#: providers/facebook/admin/getting-started.php:46
+#: providers/facebook/admin/getting-started.php:57
 msgid "<u>If the accounts are deleted by an admin</u>: then you should have a section - usually in the Privacy Policy - with the contact details, where users can send their account erasure requests. In this case the URL should point to this section of the document."
 msgstr "<u>Si las cuentas son borradas por un administrador</u>: Entonces, debes tener una sección —normalmente en la política de privacidad— con los datos de contacto, donde los usuarios pueden enviar sus solicitudes de borrado de la cuenta. En este caso, la URL debería apuntar a esta sección de la documentación."
 
-#: providers/facebook/admin/getting-started.php:45
+#: providers/facebook/admin/getting-started.php:56
 msgid "<u>If each user has an option to delete the account</u>: the URL should point to a guide showing the way users can delete their accounts."
 msgstr "<u>Si cada usuario tiene una opción para borrar la cuenta</u>: La URL debe apuntar a una guía que muestre la forma en que los usuarios pueden borrar sus cuentas."
 
-#: providers/facebook/admin/getting-started.php:42
+#: providers/facebook/admin/getting-started.php:53
 msgid "To comply with GDPR, you should already offer possibility to delete accounts on your site, either by the user or by the admin:"
 msgstr "Para cumplir con el RGPD, ya deberías ofrecer en tu sitio la posibilidad de borrar las cuentas, ya sea por el usuario o por el administrador:"
 
-#: providers/facebook/admin/getting-started.php:40
+#: providers/facebook/admin/getting-started.php:51
 msgid "At \"<b>User Data Deletion</b>\", choose the \"<b>Data Deletion Instructions URL</b>\" option, and enter the <i>URL of your page</i>* with the instructions on how users can delete their accounts on your site."
 msgstr "En «<b>Borrado de los datos del usuario</b>», elige la opción «<b>URL de las instrucciones del borrado de datos</b>» e introduce la <i>URL de tu página</i>* con las instrucciones sobre cómo pueden borrar los usuarios sus cuentas en tu sitio."
 
-#: providers/facebook/admin/getting-started.php:29
+#: providers/facebook/admin/getting-started.php:31
 msgid "<b>Optional</b>: choose a \"<b>Business Manager Account</b>\" in the popup, if you have any."
 msgstr "<b>Opcional</b>: En la ventana emergente, elige una «<b>Cuenta de gestor del negocio</b>», si tienes alguna."
 
@@ -219,7 +235,7 @@ msgstr "¿Sabes por qué?"
 msgid "By replacing your existing %1$s App, users with linked %1$s accounts will no longer be able to login with %1$s."
 msgstr "Al reemplazar tu aplicación de %1$s existente, los usuarios con cuentas de %1$s enlazadas ya no podrán acceder con %1$s."
 
-#: providers/facebook/facebook.php:86
+#: providers/facebook/facebook.php:91
 msgid "Sign up with <b>Facebook</b>"
 msgstr "Registro con <b>Facebook</b>"
 
@@ -251,25 +267,21 @@ msgstr "Blanco"
 msgid "Black"
 msgstr "Negro"
 
-#: providers/facebook/admin/getting-started.php:53
-msgid "At the top of the page you can find your \"<b>App ID</b>\" and you can see your \"<b>App secret</b>\" if you click on the \"Show\" button. These will be needed in plugin’s settings."
-msgstr "En la parte superior de la página puedes encontrar tu «<b>ID de la aplicación</b>» y puedes ver tu «<b>Clave secreta de la aplicación</b>» si haces clic en el botón «Mostrar». Serán necesarios en los ajustes del plugin."
+#: providers/facebook/admin/getting-started.php:66
+msgid "At the top of the page you can find your \"<b>%1$s</b>\" and you can see your \"<b>%2$s</b>\" if you click on the \"Show\" button. These will be needed in plugin’s settings."
+msgstr "En la parte superior de la página puedes encontrar tu «<b>%1$s</b>» y puedes ver tu «<b>%2$s</b>» si haces clic en el botón «Mostrar». Serán necesarios en los ajustes del plugin."
 
-#: providers/facebook/admin/getting-started.php:34
+#: providers/facebook/admin/getting-started.php:36
 msgid "Click on the “<b>%1$s</b>” option what you find on the left side, under “<b>%2$s</b> - <b>%3$s</b>”"
 msgstr "Haz clic en la opción «<b>%1$s</b>» que encontrarás en el lado izquierdo, en «<b>%2$s</b> - <b>%3$s</b>»"
 
-#: providers/facebook/admin/getting-started.php:33
-msgid "Press “<b>Save</b>”"
-msgstr "Pulsa «<b>Guardar</b>»"
+#: providers/facebook/admin/getting-started.php:35
+msgid "Press “<b>Save</b>”."
+msgstr "Pulsa «<b>Guardar</b>»."
 
-#: providers/facebook/admin/getting-started.php:32
+#: providers/facebook/admin/getting-started.php:34
 msgid "Select \"<b>Web</b>\" and enter the following URL to the \"<b>Site URL</b>\" field: <b>%s</b>"
 msgstr "Selecciona «<b>Web</b>» e introduce la siguiente URL en el campo «<b>URL del sitio</b>»: <b>%s</b>"
-
-#: providers/facebook/admin/getting-started.php:31
-msgid "At the \"<b>Add a Product</b>\" panel find \"<b>%1$s</b>\" and click \"<b>Set Up</b>\""
-msgstr "En el panel «<b>Añadir un producto</b>», busca «<b>%1$s</b>» y haz clic en «<b>Configurar</b>»"
 
 #: providers/google/admin/buttons.php:20
 msgid "Uniform - Legacy"
@@ -307,19 +319,19 @@ msgstr "No hay un botón de conexión en el formulario de «Checkout for WooComm
 msgid "Checkout for WooCommerce"
 msgstr "Checkout for WooCommerce"
 
-#: providers/google/admin/getting-started.php:37
+#: providers/google/admin/getting-started.php:48
 msgid "Click on the \"<b>%1$s</b>\" button"
 msgstr "Haz clic en el botón «<b>%1$s</b>»"
 
-#: providers/google/admin/getting-started.php:35
+#: providers/google/admin/getting-started.php:37
 msgid "Enter a \"<b>%1$s</b>\" for your OAuth client ID."
 msgstr "Introduce un «<b>%1$s</b>» para tu ID de cliente de OAuth."
 
-#: providers/google/admin/getting-started.php:32
+#: providers/google/admin/getting-started.php:34
 msgid "On the left side, click on the \"<b>%1$s</b>\" menu point, then click the \"<b>%2$s</b>\" button in the top bar."
 msgstr "En la parte izquierda, haz clic en el punto del menú «<b>%1$s</b>», después, haz clic en el botón «<b>%2$s</b>» en la barra superior."
 
-#: providers/google/admin/getting-started.php:24
+#: providers/google/admin/getting-started.php:26
 msgid "<b>Note:</b> We don't use sensitive or restricted scopes either. But if you will use this App for other purposes too, then you may need to go through an %1$s!"
 msgstr "<b>Nota:</b> Tampoco usamos extensiones sensibles o restringidas. Pero, si también vas a usar esta aplicación para otros propósitos, entonces ¡puede que tengas que pasar por una %1$s!"
 
@@ -335,59 +347,56 @@ msgstr "Seleccionar una cuenta en cada acceso"
 msgid "Under the \"<b>OAuth 2.0 Client IDs</b>\" section find your Client ID: <b>%s</b>"
 msgstr "En la sección «<b>IDs de cliente de OAuth 2.0</b>», busca tu ID de cliente: <b>%s</b>"
 
-#: providers/facebook/admin/getting-started.php:52
-msgid "Your application is currently private, which means that only you can log in with it. In the top bar click on the switch next to the \"<b>In development</b>\" label, then click the \"<b>Switch Mode</b>\" button."
-msgstr "Actualmente, tu aplicación es privada, lo que significa que solo tú puedes acceder con ella. En la barra superior, haz clic en el conmutador junto a la etiqueta «<b>En desarrollo</b>», después, haz clic en el botón «<b>Cambier el modo</b>»."
+#: providers/facebook/admin/getting-started.php:47
+msgid "Click on “<b>Save Changes</b>”."
+msgstr "Haz clic en «<b>Guardar los cambios</b>»."
 
-#: providers/facebook/admin/getting-started.php:36
-msgid "Click on “<b>Save Changes</b>”"
-msgstr "Haz clic en «<b>Guardar los cambios</b>»"
+#: providers/facebook/admin/getting-started.php:62
+msgid "Select a “<b>Category</b>”, an “<b>App Icon</b>” and pick the “<b>App Purpose</b>” option that describes your App the best, then press \"<b>Save Changes</b>\"."
+msgstr "Selecciona una «<b>Categoría</b>», un «<b>Icono de la aplicación</b>» y selecciona la opción «<b>Propósito de la aplicación</b>» que mejor describa tu aplicación, después, pulsa «<b>Guardar los cambios</b>»."
 
-#: providers/facebook/admin/getting-started.php:51
-msgid "Select a “<b>Category</b>”, an “<b>App Icon</b>” and pick the “<b>App Purpose</b>” option that describes your App the best, then press \"<b>Save Changes</b>\""
-msgstr "Selecciona una «<b>Categoría</b>», un «<b>Icono de la aplicación</b>» y selecciona la opción «<b>Propósito de la aplicación</b>» que mejor describa tu aplicación, después, pulsa «<b>Guardar los cambios</b>»"
-
-#: providers/facebook/admin/getting-started.php:38
+#: providers/facebook/admin/getting-started.php:49
 msgid "Enter your domain name to the \"<b>App Domains</b>\" field, probably: <b>%s</b>"
 msgstr "Introduce el nombre de tu dominio en el campo «<b>Dominios de la aplicación</b>», probablemente: <b>%s</b>"
 
-#: providers/facebook/admin/getting-started.php:37
-msgid "On the top left side, click on the “<b>%1$s</b>” menu point, then click “<b>%2$s</b>”"
-msgstr "En la parte superior izquierda, haz clic en el punto del menú «<b>%1$s</b>», después, haz clic en «<b>%2$s</b>»"
+#: providers/facebook/admin/getting-started.php:48
+#: providers/facebook/admin/getting-started.php:65
+msgid "On the top left side, click on the “<b>%1$s</b>” menu point, then click “<b>%2$s</b>”."
+msgstr "En la parte superior izquierda, haz clic en el punto del menú «<b>%1$s</b>», después, haz clic en «<b>%2$s</b>»."
 
-#: providers/facebook/admin/getting-started.php:30
+#: providers/facebook/admin/getting-started.php:32
 msgid "Click the \"<b>Create App</b>\" button and complete the Security Check."
 msgstr "Haz clic en el botón «<b>Crear la aplicación</b>» y completa la comprobación de seguridad."
 
-#: providers/facebook/admin/getting-started.php:27
+#: providers/facebook/admin/getting-started.php:29
 msgid "If you see the message \"<b>Become a Facebook Developer</b>\", then you need to click on the green \"<b>Register Now</b>\" button, fill the form then finally verify your account."
 msgstr "Si ves el mensaje «<b>Conviértete en un desarrollador de Facebook</b>», entonces tienes que hacer clic en el botón verde «<b>Registrar ahora</b>», rellena el formulario y, finalmente, verifica tu cuenta."
 
-#: providers/facebook/admin/fix-redirect-uri.php:13
+#: providers/facebook/admin/fix-redirect-uri.php:22
 msgid "Click on \"<b>Save Changes</b>\""
 msgstr "Haz clic en «<b>Guardar los cambios</b>»"
 
-#: providers/google/admin/fix-redirect-uri.php:13
-#: providers/twitter/admin/fix-redirect-uri.php:14
+#: providers/google/admin/fix-redirect-uri.php:22
+#: providers/twitter/admin/fix-redirect-uri.php:23
 msgid "Click on \"<b>Save</b>\""
 msgstr "Haz clic en «<b>Guardar</b>»"
 
 #: providers/facebook/admin/fix-redirect-uri.php:8
 #: providers/google/admin/fix-redirect-uri.php:8
 #: providers/twitter/admin/fix-redirect-uri.php:8
-#: providers/twitter/admin/getting-started.php:16
+#: providers/twitter/admin/getting-started.php:18
 msgid "Navigate to <b>%s</b>"
 msgstr "Ve a <b>%s</b>"
 
-#: includes/user.php:128
+#: includes/user.php:130
 msgid "User registration is currently not allowed."
 msgstr "Actualmente no está permitido el registro de usuarios."
 
-#: admin/templates/settings/buddypress.php:79
+#: admin/templates/settings/buddypress.php:117
 msgid "Some themes that use BuddyPress, display the social buttons twice in the same login form. This option can disable the one for: <b>bp_sidebar_login_form action</b>.  "
 msgstr "Algunos temas que utilizan BuddyPress muestran los botones sociales dos veces en el mismo formulario de acceso. Esta opción puede desactivarlo mediante: <b>bp_sidebar_login_form action</b>.  "
 
-#: admin/templates/settings/buddypress.php:70
+#: admin/templates/settings/buddypress.php:108
 msgid "Sidebar Login form"
 msgstr "Formulario de acceso de la barra lateral"
 
@@ -403,7 +412,7 @@ msgstr "%1$s y %2$s no son compatibles. Por favor, actualiza %2$s  a la versión
 msgid "Not compatible!"
 msgstr "¡No compatible!"
 
-#: admin/templates/settings/buddypress.php:99
+#: admin/templates/settings/buddypress.php:137
 msgid "Login button style"
 msgstr "Estilo del botón de acceso."
 
@@ -423,7 +432,7 @@ msgstr "¡Los shortcodes sólo los visualizan los usuarios que aún no se han co
 msgid "Important!"
 msgstr "¡Importante!"
 
-#: providers/facebook/admin/getting-started.php:28
+#: providers/facebook/admin/getting-started.php:30
 msgid "Fill \"<b>App Display Name</b>\", \"<b>App Contact Email</b>\". The specified \"App Display Name\" will appear on your %s!"
 msgstr "Rellena «<b>Nombre de la aplicación a mostrar</b>» y «<b>Correo electrónico de contacto de la aplicación</b>». ¡El «Nombre de la aplicación a mostrar» especificado aparecerá en tu %s!"
 
@@ -482,8 +491,9 @@ msgstr "Quitar enlace"
 msgid "Embedded login form button alignment"
 msgstr "Alineamiento de botón de acceso incrustado"
 
-#: admin/templates/settings/buddypress.php:162
+#: admin/templates/settings/buddypress.php:200
 #: admin/templates/settings/comment.php:59
+#: admin/templates/settings/easy-digital-downloads.php:194
 #: admin/templates/settings/login-form.php:53
 #: admin/templates/settings/memberpress.php:178
 #: admin/templates/settings/ultimate-member.php:178
@@ -492,8 +502,9 @@ msgstr "Alineamiento de botón de acceso incrustado"
 msgid "Button alignment"
 msgstr "Alineación de botones"
 
-#: admin/templates/settings/buddypress.php:174
+#: admin/templates/settings/buddypress.php:212
 #: admin/templates/settings/comment.php:71
+#: admin/templates/settings/easy-digital-downloads.php:206
 #: admin/templates/settings/login-form-pro.php:159
 #: admin/templates/settings/login-form.php:65
 #: admin/templates/settings/memberpress.php:190
@@ -503,8 +514,9 @@ msgstr "Alineación de botones"
 msgid "Right"
 msgstr "Derecha"
 
-#: admin/templates/settings/buddypress.php:170
+#: admin/templates/settings/buddypress.php:208
 #: admin/templates/settings/comment.php:67
+#: admin/templates/settings/easy-digital-downloads.php:202
 #: admin/templates/settings/login-form-pro.php:155
 #: admin/templates/settings/login-form.php:61
 #: admin/templates/settings/memberpress.php:186
@@ -514,8 +526,9 @@ msgstr "Derecha"
 msgid "Center"
 msgstr "Centrar"
 
-#: admin/templates/settings/buddypress.php:167
+#: admin/templates/settings/buddypress.php:205
 #: admin/templates/settings/comment.php:64
+#: admin/templates/settings/easy-digital-downloads.php:199
 #: admin/templates/settings/login-form-pro.php:152
 #: admin/templates/settings/login-form.php:58
 #: admin/templates/settings/memberpress.php:183
@@ -529,11 +542,11 @@ msgstr "Izquierda"
 msgid "Button align:"
 msgstr "Alinear botón:"
 
-#: includes/provider.php:673
+#: includes/provider.php:679
 msgid "Unlink is not allowed!"
 msgstr "¡Quitar el enlace no está permitido!"
 
-#: providers/google/admin/getting-started.php:27
+#: providers/google/admin/getting-started.php:29
 msgid "Enter a name for your App to the \"<b>%1$s</b>\" field, which will appear as the name of the app asking for consent."
 msgstr "Introduce un nombre para tu aplicación en el campo «<b>%1$s</b>», que aparecerá como el nombre de la aplicación que solicita el consentimiento."
 
@@ -541,15 +554,15 @@ msgstr "Introduce un nombre para tu aplicación en el campo «<b>%1$s</b>», que
 msgid "Deactivate Pro Addon"
 msgstr "Desactiva la extensión Pro"
 
-#: admin/admin.php:637
+#: admin/admin.php:649
 msgid "Activate"
 msgstr "Activar"
 
-#: admin/admin.php:631
+#: admin/admin.php:643
 msgid "Activate your Pro Addon"
 msgstr "Activa tu extensión Pro "
 
-#: admin/admin.php:258
+#: admin/admin.php:270
 msgid "Deactivate completed."
 msgstr "Desactivar completado."
 
@@ -561,20 +574,21 @@ msgstr "Clave API secreta "
 msgid "API Key"
 msgstr "Clave de la API"
 
-#: providers/twitter/admin/getting-started.php:19
+#: providers/twitter/admin/getting-started.php:21
 msgid "Once your developer account is complete, navigate back to <b>%s</b> if you aren't already there!"
 msgstr "Cuando tu cuenta de desarrollador esté completa, ¡vuelve a <b>%s</b>, si aún no estás ahí!"
 
-#: providers/twitter/admin/getting-started.php:18
+#: providers/twitter/admin/getting-started.php:20
 msgid "If you don't have a developer account yet, please apply one by filling all the required details! This is required for the next steps!"
 msgstr "Si aún no tienes una cuenta de desarrollador, por favor, solicita una rellenando todos los datos necesarios ¡Esto es necesario para los siguientes pasos!"
 
-#: providers/google/admin/getting-started.php:17
-#: providers/twitter/admin/getting-started.php:17
+#: providers/facebook/admin/getting-started.php:27
+#: providers/google/admin/getting-started.php:19
+#: providers/twitter/admin/getting-started.php:19
 msgid "Log in with your %s credentials if you are not logged in."
 msgstr "Accede con tus credenciales de %s si todavía no estás conectado"
 
-#: providers/google/admin/getting-started.php:18
+#: providers/google/admin/getting-started.php:20
 msgid "If you don't have a project yet, you'll need to create one. You can do this by clicking on the blue \"<b>%1$s</b>\" text on the right side!  ( If you already have a project, then in the top bar click on the name of your project instead, which will bring up a modal and click <b>\"%2$s\"</b>. )"
 msgstr "Si aún no tienes un proyecto, tendrás que crear uno. Para ello, ¡haz clic en el texto azul «<b>%1$s</b>» que se encuentra a la derecha! (Si ya tienes un proyecto, en su lugar, haz clic en el nombre de tu proyecto en la barra superior, que te mostrará una ventana emergente y haz clic en «<b>%2$s</b>»)."
 
@@ -623,10 +637,12 @@ msgstr "Falló la conexión de red: %1$s"
 msgid "Network connection successful: %1$s"
 msgstr "Conexión de red correcta: %1$s"
 
+#: admin/templates/settings/easy-digital-downloads.php:106
 #: admin/templates/settings/ultimate-member.php:95
 msgid "No Connect button in Register form"
 msgstr "Botón de no conectar en el formulario de registro"
 
+#: admin/templates/settings/easy-digital-downloads.php:23
 #: admin/templates/settings/memberpress.php:23
 #: admin/templates/settings/ultimate-member.php:23
 msgid "No Connect button in Login form"
@@ -704,19 +720,19 @@ msgstr "No tienes compatibilidad con cURL. ¡Por favor, habilítalo en php.ini!"
 msgid "Test network connection with providers"
 msgstr "Probar la conexión de red con los proveedores"
 
-#: admin/admin.php:607
+#: admin/admin.php:619
 msgid "Fix now"
 msgstr "Corregir ahora"
 
-#: admin/admin.php:606
+#: admin/admin.php:618
 msgid "%1$s detected that %2$s installed on your site. You must set \"<b>Page for register flow</b>\" and \"<b>OAuth redirect uri proxy page</b>\" in %1$s to work properly."
 msgstr "%1$s ha detectado que %2$s está instalado en tu sitio. Debes configurar «<b>Página para el flujo de registro</b>» y «<b>Página de proxy de redirección de url para OAuth </b>» en %1$s para que funcionen correctamente."
 
-#: includes/provider.php:1110
-msgid "Profile picture"
-msgstr "Imagen de perfil"
+#: includes/provider.php:1116
+msgid "Profile Picture"
+msgstr "Imagen del perfil"
 
-#: includes/provider.php:1094
+#: includes/provider.php:1100
 msgid "Identifier"
 msgstr "Identificador"
 
@@ -757,6 +773,12 @@ msgstr "Plantilla de facturación"
 msgid "Billing form"
 msgstr "Formulario de facturación"
 
+#: admin/templates/settings/easy-digital-downloads.php:26
+#: admin/templates/settings/easy-digital-downloads.php:31
+#: admin/templates/settings/easy-digital-downloads.php:109
+#: admin/templates/settings/easy-digital-downloads.php:114
+#: admin/templates/settings/easy-digital-downloads.php:119
+#: admin/templates/settings/easy-digital-downloads.php:124
 #: admin/templates/settings/memberpress.php:26
 #: admin/templates/settings/memberpress.php:98
 #: admin/templates/settings/ultimate-member.php:26
@@ -773,7 +795,7 @@ msgstr "Formulario de facturación"
 msgid "Connect button on"
 msgstr "Botón de conexión activado"
 
-#: admin/templates/settings/privacy.php:102 includes/provider.php:1102
+#: admin/templates/settings/privacy.php:102 includes/provider.php:1108
 msgid "Access token"
 msgstr "Token de acceso"
 
@@ -836,20 +858,21 @@ msgid "Register button style"
 msgstr "Estilo de botón de registro"
 
 #: admin/templates/settings/buddypress.php:18
+#: admin/templates/settings/easy-digital-downloads.php:101
 #: admin/templates/settings/ultimate-member.php:90
 #: admin/templates/settings/woocommerce.php:102
 msgid "Register form"
 msgstr "Formulario de registro"
 
-#: admin/templates/global-settings.php:33
+#: admin/templates/global-settings.php:34
 msgid "Privacy"
 msgstr "Privacidad"
 
-#: admin/admin.php:761
+#: admin/admin.php:773
 msgid "Register flow page"
 msgstr "Página de flujo de registro"
 
-#: admin/admin.php:758
+#: admin/admin.php:770
 msgid "OAuth proxy page"
 msgstr "Página proxy de OAuth"
 
@@ -923,12 +946,15 @@ msgstr "¿Cómo obtengo SSL para mi sitio de WordPress?"
 msgid "%1$s allows HTTPS OAuth Redirects only. You must move your site to HTTPS in order to allow login with %1$s."
 msgstr "%1$s sólo permite redirecciones OAuth HTTPS . Debes mover tu sitio a HTTPS para permitir el acceso con %1$s."
 
+#: admin/templates/settings/buddypress.php:70
+#: admin/templates/settings/easy-digital-downloads.php:156
 #: admin/templates/settings/ultimate-member.php:130
 #: admin/templates/settings/userpro.php:127
 #: admin/templates/settings/woocommerce.php:122
 msgid "Register layout"
 msgstr "Disposición de registro"
 
+#: admin/templates/settings/easy-digital-downloads.php:131
 #: admin/templates/settings/ultimate-member.php:105
 #: admin/templates/settings/userpro.php:102
 msgid "Register form button style"
@@ -992,7 +1018,7 @@ msgstr "Gestionar avatar"
 msgid "Avatar"
 msgstr "Avatar"
 
-#: providers/facebook/facebook.php:309
+#: providers/facebook/facebook.php:314
 msgid "Required scope: %1$s"
 msgstr "Alcance requerido: %1$s"
 
@@ -1025,10 +1051,6 @@ msgstr "Sincronizar datos"
 msgid "No link buttons"
 msgstr "Sin botones de enlace"
 
-#: providers/google/admin/fix-redirect-uri.php:12
-msgid "Add the following URL to the \"<b>Authorised redirect URIs</b>\" field: <b>%s</b>"
-msgstr "Añade la siguiente URL al campo «<b>URIs de redirección autorizadas</b>»: <b>%s</b>"
-
 #: providers/google/admin/fix-redirect-uri.php:10
 msgid "Click on the \"<b>Credentials</b>\" in the left hand menu"
 msgstr "Haz clic en «<b>Credenciales</b>» en el menú de la izquierda"
@@ -1041,7 +1063,7 @@ msgstr "En la barra lateral izquierda, haz clic en «<b>Acceso con Facebook > Aj
 msgid "Click on the App with App ID: <b>%s</b>"
 msgstr "Haz clic en la aplicación con ID: <b>%s</b>"
 
-#: nextend-social-login.php:1193
+#: nextend-social-login.php:1214
 msgid "Social Accounts"
 msgstr "Cuentas Sociales"
 
@@ -1065,11 +1087,11 @@ msgstr "Por favor, guarda los cambios para verificar los ajustes."
 msgid "Your configuration needs to be verified"
 msgstr "Tu configuración debe ser verificada"
 
-#: includes/user.php:82
+#: includes/user.php:84
 msgid "This %s account is already linked to another user."
 msgstr "Esta cuenta de %s ya está vinculada a otro usuario."
 
-#: includes/user.php:77
+#: includes/user.php:79
 msgid "You have already linked a(n) %s account. Please unlink the current and then you can link another %s account."
 msgstr "Ya has enlazado una cuentas de %s. Por favor, desvincula la cuenta actual y luego podrás vincular otra cuenta de %s."
 
@@ -1137,17 +1159,17 @@ msgstr "Verificar ajustes"
 msgid "Not Verified"
 msgstr "No verificado"
 
-#: admin/templates/global-settings.php:39
+#: admin/templates/global-settings.php:40
 msgid "Comment"
 msgstr "Comentar"
 
-#: admin/templates/global-settings.php:35
+#: admin/templates/global-settings.php:36
 #: admin/templates/settings/login-form.php:9
 #: admin/templates/settings/userpro.php:18
 msgid "Login Form"
 msgstr "Formulario de acceso"
 
-#: admin/templates/global-settings.php:31
+#: admin/templates/global-settings.php:32
 msgid "General"
 msgstr "General"
 
@@ -1163,27 +1185,27 @@ msgstr "Todas las URIs de redirección de Oauth parecen estar bien"
 msgid "Fix Oauth Redirect URIs"
 msgstr "Arreglar las URIs de redirección de Oauth"
 
-#: admin/admin.php:600
+#: admin/admin.php:612
 msgid "Dismiss"
 msgstr "Descartar"
 
-#: admin/admin.php:600
+#: admin/admin.php:612
 msgid "Dismiss and check Pro Addon"
 msgstr "Descartar y ver el complemento Pro"
 
-#: admin/admin.php:599
+#: admin/admin.php:611
 msgid "%1$s detected that %2$s installed on your site. You need the Pro Addon to display Social Login buttons in %2$s login form!"
 msgstr "%1$s detectó que %2$s está instalado en tu sitio. ¡Necesitas el complemento Pro para mostrar los botones de inicio de sesión social en el formulario de inicio de sesión de %2$s!"
 
-#: admin/admin.php:582
+#: admin/admin.php:594
 msgid "Oauth Redirect URI"
 msgstr "URI de redirección de Oauth"
 
-#: admin/admin.php:582
+#: admin/admin.php:594
 msgid "Fix Error"
 msgstr "Corregir error"
 
-#: admin/admin.php:581 admin/templates/fix-redirect-uri.php:21
+#: admin/admin.php:593 admin/templates/fix-redirect-uri.php:21
 msgid "%s detected that your login url changed. You must update the Oauth redirect URIs in the related social applications."
 msgstr "%s ha detectado que tu url de inicio de sesión ha cambiado. Debes actualizar las URIs de redirección de Oauth en las aplicaciones sociales relacionadas."
 
@@ -1252,8 +1274,8 @@ msgstr "Por defecto de WordPress"
 msgid "Registration notification sent to"
 msgstr "Aviso de registro enviado a"
 
-#: admin/templates/settings/buddypress.php:75
-#: admin/templates/settings/buddypress.php:91
+#: admin/templates/settings/buddypress.php:113
+#: admin/templates/settings/buddypress.php:129
 #: admin/templates/settings/login-form.php:17
 #: admin/templates/settings/login-form.php:30
 #: admin/templates/settings/login-form.php:47
@@ -1262,8 +1284,8 @@ msgstr "Aviso de registro enviado a"
 msgid "Hide login buttons"
 msgstr "Ocultar botones de acceso"
 
-#: admin/templates/settings/buddypress.php:78
-#: admin/templates/settings/buddypress.php:94
+#: admin/templates/settings/buddypress.php:116
+#: admin/templates/settings/buddypress.php:132
 #: admin/templates/settings/login-form.php:14
 #: admin/templates/settings/login-form.php:27
 #: admin/templates/settings/login-form.php:44
@@ -1272,14 +1294,15 @@ msgstr "Ocultar botones de acceso"
 msgid "Show login buttons"
 msgstr "Mostrar botones de acceso"
 
-#: admin/templates/settings/buddypress.php:86
+#: admin/templates/settings/buddypress.php:124
+#: admin/templates/settings/easy-digital-downloads.php:18
 #: admin/templates/settings/memberpress.php:18
 #: admin/templates/settings/ultimate-member.php:18
 #: admin/templates/settings/woocommerce.php:44
 msgid "Login form"
 msgstr "Formulario de acceso"
 
-#: admin/admin.php:520 includes/oauth2.php:143 includes/oauth2.php:288
+#: admin/admin.php:532 includes/oauth2.php:143 includes/oauth2.php:288
 #: providers/facebook/facebook-client.php:84
 #: providers/twitter/twitter-client.php:165
 msgid "Unexpected response: %s"
@@ -1317,9 +1340,9 @@ msgstr "%s Botones"
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: includes/userData.php:150
-msgid "Register For This Site!"
-msgstr "¡Regístrate en esta web!"
+#: includes/userData.php:152
+msgid "Register For This Site"
+msgstr "Regístrate en este sitio"
 
 #: providers/twitter/twitter.php:73
 msgid "Unlink account from <b>Twitter</b>"
@@ -1345,13 +1368,9 @@ msgstr "https://es.wordpress.org/"
 msgid "Register"
 msgstr "Regístrate"
 
-#: admin/templates/settings/login-form.php:22 includes/userData.php:150
+#: admin/templates/settings/login-form.php:22 includes/userData.php:152
 msgid "Registration Form"
 msgstr "Formulario de registro"
-
-#: providers/twitter/admin/fix-redirect-uri.php:12
-msgid "Add the following URL to the \"<b>Callback URLs</b>\" field: <b>%s</b>"
-msgstr "Añade la siguiente URL al campo «<b>Callback URL</b>»: <b>%s</b>"
 
 #: providers/google/google.php:102
 msgid "Unlink account from <b>Google</b>"
@@ -1373,28 +1392,28 @@ msgstr "Secreto del cliente"
 msgid "Client ID"
 msgstr "ID de cliente"
 
-#: providers/google/admin/getting-started.php:38
+#: providers/google/admin/getting-started.php:49
 msgid "A modal should pop up with your credentials. If that doesn't happen, go to the %1$s in the left hand menu and select your app by clicking on its name and you'll be able to copy-paste the \"<b>%2$s</b>\" and \"<b>%3$s</b>\" from there."
 msgstr "Debería aparecer una ventana emergente con tus credenciales. Si esto no ocurre, ve a «%1$s» en el menú de la izquierda y selecciona tu aplicación haciendo clic en su nombre y podrás copiar y pegar el «<b>%2$s</b>» y el «<b>%3$s</b>» desde allí."
 
-#: providers/google/admin/getting-started.php:19
+#: providers/google/admin/getting-started.php:21
 msgid "Name your project and then click on the \"<b>%1$s</b>\" button again!"
 msgstr "¡Pon un nombre a tu proyecto y luego haz clic otra vez en el botón «<b>%1$s</b>»!"
 
-#: providers/facebook/facebook.php:188 providers/google/google.php:168
+#: providers/facebook/facebook.php:193 providers/google/google.php:168
 #: providers/twitter/twitter.php:97
 msgid "The %1$s entered did not appear to be a valid. Please enter a valid %2$s."
 msgstr "El %1$s introducido no parecía ser un valor válido. Por favor, introduce un %2$s válido."
 
-#: providers/facebook/facebook.php:88
+#: providers/facebook/facebook.php:93
 msgid "Unlink account from <b>Facebook</b>"
 msgstr "Desvincular cuenta de <b>Facebook</b>"
 
-#: providers/facebook/facebook.php:87
+#: providers/facebook/facebook.php:92
 msgid "Link account with <b>Facebook</b>"
 msgstr "Conectar cuenta con <b>Facebook</b>"
 
-#: providers/facebook/facebook.php:85
+#: providers/facebook/facebook.php:90
 msgid "Continue with <b>Facebook</b>"
 msgstr "Continuar con <b>Facebook</b>"
 
@@ -1428,36 +1447,35 @@ msgstr "Obligatorio"
 msgid "App ID"
 msgstr "ID de la aplicación"
 
-#: providers/facebook/admin/getting-started.php:67
-#: providers/google/admin/getting-started.php:42
-#: providers/twitter/admin/getting-started.php:35
+#: providers/facebook/admin/getting-started.php:78
+#: providers/google/admin/getting-started.php:53
+#: providers/twitter/admin/getting-started.php:46
 msgid "I am done setting up my %s"
 msgstr "Ya he terminado de configurar mis %s"
 
-#: providers/facebook/admin/getting-started.php:39
+#: providers/facebook/admin/getting-started.php:50
 msgid "Fill up the \"<b>Privacy Policy URL</b>\" field. Provide a publicly available and easily accessible privacy policy that explains what data you are collecting and how you will use that data."
 msgstr "Rellena el campo «<b>URL de la política de privacidad</b>». Proporciona una política de privacidad disponible públicamente y de fácil acceso que explique qué datos estás recopilando y cómo los utilizarás."
 
-#: providers/facebook/admin/fix-redirect-uri.php:12
-#: providers/facebook/admin/getting-started.php:35
-msgid "Add the following URL to the \"<b>Valid OAuth redirect URIs</b>\" field: <b>%s</b>"
-msgstr "Añade la siguiente URL al campo «<b>URIs válidas de redirección de OAuth</b>»: <b>%s</b>"
+#: providers/facebook/admin/fix-redirect-uri.php:14
+#: providers/facebook/admin/getting-started.php:39
+msgid "Add the following URL to the \"<b>Valid OAuth redirect URIs</b>\" field:"
+msgstr "Añade la siguiente URL al campo «<b>URI válidas de redirección de OAuth</b>»:"
 
 #: providers/facebook/admin/fix-redirect-uri.php:9
-#: providers/facebook/admin/getting-started.php:25
 #: providers/google/admin/fix-redirect-uri.php:9
 #: providers/twitter/admin/fix-redirect-uri.php:9
 msgid "Log in with your %s credentials if you are not logged in"
 msgstr "Inicia sesión con tus credenciales de %s si no has iniciado sesión"
 
-#: providers/facebook/admin/getting-started.php:24
-#: providers/google/admin/getting-started.php:16
+#: providers/facebook/admin/getting-started.php:26
+#: providers/google/admin/getting-started.php:18
 msgid "Navigate to %s"
 msgstr "Ir a %s"
 
-#: providers/facebook/admin/getting-started.php:21
-#: providers/google/admin/getting-started.php:13
-#: providers/twitter/admin/getting-started.php:13
+#: providers/facebook/admin/getting-started.php:23
+#: providers/google/admin/getting-started.php:15
+#: providers/twitter/admin/getting-started.php:15
 msgctxt "App creation"
 msgid "Create %s"
 msgstr "Crear %s"
@@ -1468,7 +1486,7 @@ msgstr "Crear %s"
 msgid "To allow your visitors to log in with their %1$s account, first you must create a %1$s App. The following guide will help you through the %1$s App creation process. After you have created your %1$s App, head over to \"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your %1$s App."
 msgstr "Para permitir que tus visitantes se conecten con su cuenta de %1$s, primero debes crear una aplicación de %1$s. La siguiente guía te ayudará en el proceso de creación de la aplicación %1$s. Después de haber creado tu aplicación de %1$s, dirígete a «Ajustes» y configure el «%2$s» y «%3$s» de tu aplicación de %1$s."
 
-#: nextend-social-login.php:833 nextend-social-login.php:1212
+#: nextend-social-login.php:854 nextend-social-login.php:1233
 msgid "Social Login"
 msgstr "Inicio de sesión social"
 
@@ -1496,28 +1514,28 @@ msgstr "Funciona bien"
 msgid "Before you can start letting your users register with your app it needs to be tested. This test makes sure that no users will have troubles with the login and registration process. <br> If you see error message in the popup check the copied ID and secret or the app itself. Otherwise your settings are fine."
 msgstr "Antes de que puedas empezar a dejar que tus usuarios se registren con tu aplicación, es necesario probarla. Esta prueba asegura que ningún usuario tendrá problemas con el proceso de inicio de sesión y registro. <br> Si aparece un mensaje de error en la ventana emergente, comprueba el ID y el secreto copiados o la propia aplicación. De lo contrario, tu configuración está bien."
 
-#: includes/provider.php:941
+#: includes/provider.php:947
 msgid "Authentication failed"
 msgstr "Identificación fallida"
 
-#: includes/provider.php:888 includes/provider.php:895
+#: includes/provider.php:894 includes/provider.php:901
 msgid "The test was successful"
 msgstr "El test ha sido correcto"
 
-#: includes/provider.php:671
+#: includes/provider.php:677
 msgid "Unlink successful."
 msgstr "Desvinculación correcta."
 
-#: includes/provider.php:656 includes/user.php:168 includes/user.php:597
+#: includes/provider.php:662 includes/user.php:170 includes/user.php:606
 msgid "Authentication error"
 msgstr "Error en la identificación"
 
-#: includes/user.php:74
+#: includes/user.php:76
 msgid "Your %1$s account is successfully linked with your account. Now you can sign in with %2$s easily."
 msgstr "Tu cuenta de %1$s ha sido vinculada con éxito a tu cuenta. Ahora puedes iniciar sesión con %2$s fácilmente."
 
-#: includes/provider.php:358 includes/provider.php:719
-#: includes/provider.php:727
+#: includes/provider.php:364 includes/provider.php:725
+#: includes/provider.php:733
 msgid "Authentication successful"
 msgstr "Identificación correcta"
 
@@ -1709,11 +1727,11 @@ msgstr "Has instalado y activado el complemento Pro. Si ya no quieres utilizarlo
 msgid "Pro Addon is installed and activated"
 msgstr "El complemento Pro está instalado y activado"
 
-#: admin/admin.php:735
+#: admin/admin.php:747
 msgid "License key"
 msgstr "Clave de licencia"
 
-#: admin/admin.php:632
+#: admin/admin.php:644
 msgid "To be able to use the Pro features, you need to activate Nextend Social Login Pro Addon. You can do this by clicking on the Activate button below then select the related purchase."
 msgstr "Para poder usar las características Pro, tienes que activar la extensión Nextend Social Login Pro. Puedes hacerlo haciendo clic en el botón «Activar» de abajo y, después, seleccionar la compra relacionada."
 
@@ -1754,7 +1772,7 @@ msgstr "No tienes suficientes permisos para instalar y activar plugins. ¡Ponte 
 msgid "Error"
 msgstr "Error"
 
-#: admin/templates/global-settings.php:28 admin/templates/menu.php:8
+#: admin/templates/global-settings.php:29 admin/templates/menu.php:8
 msgid "Global Settings"
 msgstr "Ajustes globales"
 
@@ -1801,8 +1819,9 @@ msgstr "Modo de depuración"
 #: admin/templates-provider/buttons.php:199
 #: admin/templates-provider/settings-pro.php:140
 #: admin/templates-provider/sync-data.php:104
-#: admin/templates/settings/buddypress.php:182
+#: admin/templates/settings/buddypress.php:220
 #: admin/templates/settings/comment.php:79
+#: admin/templates/settings/easy-digital-downloads.php:214
 #: admin/templates/settings/general-pro.php:8
 #: admin/templates/settings/general-pro.php:127
 #: admin/templates/settings/login-form-pro.php:8
@@ -1830,6 +1849,12 @@ msgstr "Sin botón de conexión en el formulario de facturación"
 #: admin/templates/settings/buddypress.php:27
 #: admin/templates/settings/buddypress.php:32
 #: admin/templates/settings/buddypress.php:37
+#: admin/templates/settings/easy-digital-downloads.php:27
+#: admin/templates/settings/easy-digital-downloads.php:32
+#: admin/templates/settings/easy-digital-downloads.php:110
+#: admin/templates/settings/easy-digital-downloads.php:115
+#: admin/templates/settings/easy-digital-downloads.php:120
+#: admin/templates/settings/easy-digital-downloads.php:125
 #: admin/templates/settings/memberpress.php:27
 #: admin/templates/settings/memberpress.php:99
 #: admin/templates/settings/memberpress.php:171
@@ -1875,7 +1900,10 @@ msgstr "Ocultar"
 msgid "Show"
 msgstr "Mostrar"
 
-#: admin/templates/settings/buddypress.php:154
+#: admin/templates/settings/buddypress.php:100
+#: admin/templates/settings/buddypress.php:192
+#: admin/templates/settings/easy-digital-downloads.php:93
+#: admin/templates/settings/easy-digital-downloads.php:186
 #: admin/templates/settings/login-form-pro.php:84
 #: admin/templates/settings/login-form-pro.php:140
 #: admin/templates/settings/memberpress.php:82
@@ -1891,7 +1919,10 @@ msgstr "Mostrar"
 msgid "Above with separator"
 msgstr "Encima con separador"
 
-#: admin/templates/settings/buddypress.php:148
+#: admin/templates/settings/buddypress.php:94
+#: admin/templates/settings/buddypress.php:186
+#: admin/templates/settings/easy-digital-downloads.php:87
+#: admin/templates/settings/easy-digital-downloads.php:180
 #: admin/templates/settings/login-form-pro.php:78
 #: admin/templates/settings/login-form-pro.php:134
 #: admin/templates/settings/memberpress.php:76
@@ -1911,7 +1942,10 @@ msgstr "Encima"
 msgid "Below and floating"
 msgstr "Debajo y flotando"
 
-#: admin/templates/settings/buddypress.php:142
+#: admin/templates/settings/buddypress.php:88
+#: admin/templates/settings/buddypress.php:180
+#: admin/templates/settings/easy-digital-downloads.php:81
+#: admin/templates/settings/easy-digital-downloads.php:174
 #: admin/templates/settings/login-form-pro.php:66
 #: admin/templates/settings/login-form-pro.php:128
 #: admin/templates/settings/memberpress.php:70
@@ -1927,7 +1961,10 @@ msgstr "Debajo y flotando"
 msgid "Below with separator"
 msgstr "Debajo con separador"
 
-#: admin/templates/settings/buddypress.php:136
+#: admin/templates/settings/buddypress.php:82
+#: admin/templates/settings/buddypress.php:174
+#: admin/templates/settings/easy-digital-downloads.php:75
+#: admin/templates/settings/easy-digital-downloads.php:168
 #: admin/templates/settings/login-form-pro.php:60
 #: admin/templates/settings/login-form-pro.php:122
 #: admin/templates/settings/memberpress.php:64
@@ -1943,7 +1980,8 @@ msgstr "Debajo con separador"
 msgid "Below"
 msgstr "Debajo"
 
-#: admin/templates/settings/buddypress.php:124
+#: admin/templates/settings/buddypress.php:162
+#: admin/templates/settings/easy-digital-downloads.php:63
 #: admin/templates/settings/login-form-pro.php:54
 #: admin/templates/settings/memberpress.php:58
 #: admin/templates/settings/ultimate-member.php:58
@@ -1953,8 +1991,10 @@ msgid "Login layout"
 msgstr "Disposición del inicio de sesión"
 
 #: admin/templates/settings/buddypress.php:62
-#: admin/templates/settings/buddypress.php:117
+#: admin/templates/settings/buddypress.php:155
 #: admin/templates/settings/comment.php:51
+#: admin/templates/settings/easy-digital-downloads.php:56
+#: admin/templates/settings/easy-digital-downloads.php:149
 #: admin/templates/settings/login-form-pro.php:47
 #: admin/templates/settings/login-form-pro.php:109
 #: admin/templates/settings/memberpress.php:51
@@ -1968,25 +2008,31 @@ msgid "Icon"
 msgstr "Icono"
 
 #: admin/templates-provider/settings-pro.php:121
-#: admin/templates/settings/buddypress.php:56
-#: admin/templates/settings/buddypress.php:111
-#: admin/templates/settings/buddypress.php:130
-#: admin/templates/settings/comment.php:45
-#: admin/templates/settings/login-form-pro.php:41
-#: admin/templates/settings/login-form-pro.php:103
-#: admin/templates/settings/memberpress.php:45
-#: admin/templates/settings/memberpress.php:117
-#: admin/templates/settings/ultimate-member.php:45
-#: admin/templates/settings/ultimate-member.php:117
-#: admin/templates/settings/userpro.php:57
-#: admin/templates/settings/userpro.php:114
-#: admin/templates/settings/woocommerce.php:30
+#: admin/templates/settings/buddypress.php:50
+#: admin/templates/settings/buddypress.php:76
+#: admin/templates/settings/buddypress.php:143
+#: admin/templates/settings/buddypress.php:168
+#: admin/templates/settings/comment.php:39
+#: admin/templates/settings/easy-digital-downloads.php:44
+#: admin/templates/settings/easy-digital-downloads.php:69
+#: admin/templates/settings/easy-digital-downloads.php:137
+#: admin/templates/settings/easy-digital-downloads.php:162
+#: admin/templates/settings/login-form-pro.php:35
+#: admin/templates/settings/login-form-pro.php:97
+#: admin/templates/settings/memberpress.php:39
+#: admin/templates/settings/memberpress.php:111
+#: admin/templates/settings/ultimate-member.php:39
+#: admin/templates/settings/ultimate-member.php:111
+#: admin/templates/settings/userpro.php:51
+#: admin/templates/settings/userpro.php:108
+#: admin/templates/settings/woocommerce.php:24
 #: admin/templates/settings/woocommerce.php:70
 #: admin/templates/settings/woocommerce.php:128
 #: admin/templates/settings/woocommerce.php:199 widget.php:42
 msgid "Default"
 msgstr "Por defecto"
 
+#: admin/templates/settings/easy-digital-downloads.php:38
 #: admin/templates/settings/login-form-pro.php:29
 #: admin/templates/settings/memberpress.php:33
 #: admin/templates/settings/ultimate-member.php:33
@@ -2000,17 +2046,17 @@ msgstr "Estilo de botón del formulario de inicio de sesión"
 msgid "PRO settings"
 msgstr "Ajustes PRO"
 
-#: admin/admin.php:437 admin/templates-provider/menu.php:15
+#: admin/admin.php:449 admin/templates-provider/menu.php:15
 #: admin/templates/providers.php:89 admin/templates/providers.php:101
 #: admin/templates/settings/comment.php:28
 msgid "Settings"
 msgstr "Ajustes"
 
-#: admin/admin.php:247
+#: admin/admin.php:259
 msgid "The activation was successful"
 msgstr "La activación ha sido correcta"
 
-#: admin/admin.php:238 admin/admin.php:268
+#: admin/admin.php:250 admin/admin.php:280
 msgid "Settings saved."
 msgstr "Ajustes guardados."
 
